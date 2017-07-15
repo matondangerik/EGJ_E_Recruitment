@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="EGJ_E_Recruitment:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/EGJ_E_Recruitment_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="EGJ_E_Recruitment/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="EGJ_E_Recruitment" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
