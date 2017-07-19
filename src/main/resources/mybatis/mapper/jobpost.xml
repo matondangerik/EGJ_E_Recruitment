@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.egj.recruitment.dao.JobPostDAO">
+    <select id="getActiveJobPostings" resultType="com.egj.recruitment.dto.JobPostDTO">
+        SELECT
+          ID,
+          TITLE
+        FROM EGJ_JOB_POST
+    </select>
+</mapper>
